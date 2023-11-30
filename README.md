@@ -19,10 +19,12 @@
    INSTALLATION AND RUNNING PROCESS:
   1. install dotenv in your virtual environment to get environment variable
   2. command: pip install python-dotenv
-  3. goto-->control panel-->system-->advance system settings-->Environment variable
-  4. create environment variable for weatherAPI key; key name:weatherAPI and value:apikey get from openweathermap.org website.
-  5. to create api key for weather information go to openweathermap.org website and open account and login.
-  6. in API section create an api key for web-application copy that api key and save in the environment variable value of weatherAPI key.
+  3. install requests in your virtual environment to get JSON data
+  4. command: pip install requests
+  5. goto-->control panel-->system-->advance system settings-->Environment variable
+  6. create environment variable for weatherAPI key; key name:weatherAPI and value:apikey get from openweathermap.org website.
+  7. to create api key for weather information go to openweathermap.org website and open account and login.
+  8. in API section create an api key for web-application copy that api key and save in the environment variable value of weatherAPI key.
 
 
 
